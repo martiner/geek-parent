@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cz.geek</groupId>
 	<artifactId>geek-parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>Geek OSS Parent</name>
@@ -20,7 +19,7 @@
 		</sonatypeOssDistMgmtSnapshotsUrl>
 		<maven.build.timestamp.format>yyyy</maven.build.timestamp.format>
 		<currentYear>${maven.build.timestamp}</currentYear>
-		<arguments/>
+		<arguments />
 		<minimal.required.maven.version>3.0.3</minimal.required.maven.version>
 		<failOnUndeclaredDependencies>true</failOnUndeclaredDependencies>
 	</properties>
@@ -29,7 +28,7 @@
 		<connection>scm:git:git@github.com:martiner/geek-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:martiner/geek-parent.git</developerConnection>
 		<url>https://github.com/martiner/geek-parent</url>
-		<tag>HEAD</tag>
+		<tag>geek-parent-1.0.0</tag>
 	</scm>
 
 	<licenses>
