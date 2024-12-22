@@ -4,7 +4,7 @@
 
 	<groupId>cz.geek</groupId>
 	<artifactId>geek-parent</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Geek OSS Parent</name>
@@ -28,7 +28,7 @@
 		<connection>scm:git:git@github.com:martiner/geek-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:martiner/geek-parent.git</developerConnection>
 		<url>https://github.com/martiner/geek-parent</url>
-		<tag>geek-parent-1.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<licenses>
